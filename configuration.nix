@@ -73,6 +73,7 @@
     isNormalUser = true;
     description = "James Dorevski";
     extraGroups = [ "networkmanager" "wheel" ];
+    shell = pkgs.fish;
   };
 
   # Allow unfree packages
@@ -84,10 +85,10 @@
     vim
     spotify
     firefox
-    fish
     vscode
     git
     tmux
+    fish
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
