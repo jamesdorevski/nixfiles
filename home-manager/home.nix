@@ -5,6 +5,7 @@
   home.homeDirectory = "/home/james";
 
   home.file.".vimrc".source = ./vimrc;
+  home.file.".config/fish/config.fish".source = ./config.fish;
 
   programs.git = {
     enable = true;
