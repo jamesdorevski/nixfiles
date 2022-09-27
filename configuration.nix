@@ -92,6 +92,9 @@
     transmission-gtk
     vlc
     direnv
+    gnome.gnome-tweaks
+    jetbrains.rider
+    alacritty
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
