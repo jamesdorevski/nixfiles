@@ -82,7 +82,7 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    vim
+    helix
     spotify
     firefox
     vscode
@@ -94,7 +94,7 @@
     direnv
     gnome.gnome-tweaks
     jetbrains.rider
-    alacritty
+    kitty
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
