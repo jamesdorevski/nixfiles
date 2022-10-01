@@ -94,7 +94,7 @@
     direnv
     gnome.gnome-tweaks
     jetbrains.rider
-    kitty
+    alacritty
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
