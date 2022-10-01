@@ -6,7 +6,6 @@
 		username = "james";
 		homeDirectory = "/home/james";
 		file = {
-			".config/fish/config.fish".source = ./config.fish;	
 			".config/alacritty/alacritty.yml".source = ./alacritty.yml;
 			".config/nvim/init.vim".source = ./init.vim;
 		};
@@ -27,6 +26,15 @@
 			      pl = "pull";
 			      aa = "add .";
     			};
+		};
+		fish = {
+			enable = true;
+			shellInit = ''
+				direnv hook fish | source		
+			'';
+			shellAliases = {
+				vi = "nvim";
+			};
 		};
 	};
 }

@@ -87,13 +87,13 @@
     vscode
     git
     tmux
-    fish
     transmission-gtk
     vlc
     direnv
     gnome.gnome-tweaks
     jetbrains.rider
     alacritty
+    tor-browser-bundle-bin
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
