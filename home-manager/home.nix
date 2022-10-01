@@ -1,24 +1,31 @@
 { config, pkgs, ... }:
 
 {
-  home.username = "james";
-  home.homeDirectory = "/home/james";
+	home = {
+		stateVersion = "22.05";
+		username = "james";
+		homeDirectory = "/home/james";
+		file = {
+			".config/fish/config.fish".source = ./config.fish;	
+			".config/alacritty/alacritty.yml".source = ./alacritty.yml;
+		};
+	};
 
-  home.file.".config/fish/config.fish".source = ./config.fish;
-
-  programs.git = {
-    enable = true;
-    userName = "jamesdorevski";
-    userEmail = "james@jamesdorevski.com";
-    aliases = {
-      st = "status";
-      cm = "commit";
-      pu = "push";
-      pl = "pull";
-      aa = "add .";
-    };
-  };
-
-  home.stateVersion = "22.05";
-  programs.home-manager.enable = true;
+	programs = {
+		home-manager = {
+			enable = true;
+		};
+		git = {
+			enable = true;
+   			userName = "jamesdorevski";
+    			userEmail = "james@jamesdorevski.com";
+    			aliases = {
+			      st = "status";
+			      cm = "commit";
+			      pu = "push";
+			      pl = "pull";
+			      aa = "add .";
+    			};
+		};
+	};
 }
