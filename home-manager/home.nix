@@ -8,6 +8,7 @@
 		file = {
 			".config/fish/config.fish".source = ./config.fish;	
 			".config/alacritty/alacritty.yml".source = ./alacritty.yml;
+			".config/nvim/init.vim".source = ./init.vim;
 		};
 	};
 
