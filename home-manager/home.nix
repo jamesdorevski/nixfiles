@@ -6,8 +6,8 @@
 		username = "james";
 		homeDirectory = "/home/james";
 		file = {
-			".config/alacritty/alacritty.yml".source = ./alacritty.yml;
-			".config/nvim/init.vim".source = ./init.vim;
+			".config/alacritty/alacritty.yml".source = ./alacritty/alacritty.yml;
+			".config/nvim/init.vim".source = ./nvim/init.vim;
 		};
 	};
 
