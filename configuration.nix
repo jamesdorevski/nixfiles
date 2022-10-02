@@ -57,7 +57,6 @@
 			"networkmanager" 
 			"wheel" 
 		];
-    	# shell = pkgs.fish;
   	};
 
 	nixpkgs.config.allowUnfree = true;
