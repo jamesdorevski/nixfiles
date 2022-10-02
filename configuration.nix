@@ -53,9 +53,11 @@
 	users.users.james = {
    		isNormalUser = true;
     	description = "James Dorevski";
+		shell = pkgs.fish;
     	extraGroups = [ 
 			"networkmanager" 
 			"wheel" 
+			"docker"
 		];
   	};
 
@@ -67,6 +69,7 @@
 			neovim
 			tmux
 			direnv
+			htop
 
 			# gui
 			spotify
@@ -80,6 +83,8 @@
 			tor-browser-bundle-bin
 		];
 	};
+
+	virtualisation.docker.enable = true;
 
 	system.stateVersion = "22.05"; 
 }
