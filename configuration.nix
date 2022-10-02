@@ -85,7 +85,6 @@
     spotify
     firefox
     vscode
-    git
     tmux
     transmission-gtk
     vlc
