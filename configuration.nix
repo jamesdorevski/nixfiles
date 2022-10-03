@@ -74,6 +74,7 @@
 			# gui
 			spotify
 			firefox
+			google-chrome
 			vscode
 			transmission-gtk
 			vlc

@@ -29,6 +29,7 @@
 		};
 		fish = {
 			enable = true;
+			defaultEditor = true;
 			shellInit = ''
 				direnv hook fish | source		
 			'';
