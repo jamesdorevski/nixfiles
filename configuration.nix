@@ -73,7 +73,6 @@
 			# gui
 			spotify
 			firefox
-			brave
 			vscode
 			transmission-gtk
 			vlc
@@ -81,6 +80,7 @@
 			jetbrains.rider
 			alacritty
 			tor-browser-bundle-bin
+			gnomeExtensions.clipboard-indicator	
 		];
 	};
 
