@@ -6,7 +6,7 @@
 {
   	imports = [  
 		./hardware-configuration.nix
-      	<home-manager/nixos>
+ 	     	<home-manager/nixos>
     ];
 
 	boot = {
@@ -52,9 +52,9 @@
   	
 	users.users.james = {
    		isNormalUser = true;
-    	description = "James Dorevski";
+    		description = "James Dorevski";
 		shell = pkgs.fish;
-    	extraGroups = [ 
+ 	   	extraGroups = [ 
 			"networkmanager" 
 			"wheel" 
 			"docker"
@@ -73,13 +73,15 @@
 			# gui
 			spotify
 			firefox
+			google-chrome
 			vscode
 			transmission-gtk
 			vlc
 			gnome.gnome-tweaks
 			jetbrains.rider
 			alacritty
-			tor-browser-bundle-bin
+
+			# GNOME Extensions
 			gnomeExtensions.clipboard-indicator	
 		];
 	};
