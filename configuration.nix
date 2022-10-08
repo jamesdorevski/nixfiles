@@ -5,6 +5,7 @@
   	imports = [  
 		./hardware-configuration.nix
  	     	<home-manager/nixos>
+		<nixos-hardware/lenovo/thinkpad/t14/amd/gen2>
  	];
 
 	boot = {
