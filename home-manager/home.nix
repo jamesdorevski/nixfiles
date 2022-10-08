@@ -41,5 +41,15 @@
 				vi = "nvim";
 			};
 		};
+		vscode = {
+			enable = true;
+			extensions = with pkgs.vscode-extensions; [
+				vscodevim.vim
+				ms-dotnettools.csharp
+			];
+			userSettings = {
+				"editor.fontFamily" = "Fira Code";
+			};
+		};
 	};
 }

@@ -67,11 +67,11 @@
 			tmux
 			direnv
 			htop
+			fzf
 
 			# gui
 			spotify
 			google-chrome
-			vscode
 			transmission-gtk
 			vlc
 			gnome.gnome-tweaks
