@@ -1,2 +1,6 @@
 font:
+  normal:
+    family: fira code
+    style: regular
+
   size: 12
