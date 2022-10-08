@@ -5,7 +5,7 @@
   	imports = [  
 		./hardware-configuration.nix
  	     	<home-manager/nixos>
-    ];
+ 	];
 
 	boot = {
 		loader = {
@@ -80,6 +80,8 @@
 
 			# GNOME Extensions
 			gnomeExtensions.clipboard-indicator	
+			gnomeExtensions.bluetooth-quick-connect
+			gnomeExtensions.sound-output-device-chooser
 		];
 	};
 

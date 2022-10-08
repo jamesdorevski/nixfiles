@@ -11,6 +11,10 @@
 		};
 	};
 
+	home.packages = with pkgs; [
+		fira-code
+	];
+
 	programs = {
 		home-manager = {
 			enable = true;
@@ -29,7 +33,6 @@
 		};
 		fish = {
 			enable = true;
-			defaultEditor = true;
 			shellInit = ''
 				direnv hook fish | source		
 			'';
