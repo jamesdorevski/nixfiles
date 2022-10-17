@@ -15,6 +15,8 @@
 		fira
 		fira-code
 	];
+	
+	nixpkgs.config.allowUnfree = true;
 
 	programs = {
 		home-manager = {

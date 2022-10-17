@@ -78,6 +78,7 @@
 			gnome.gnome-tweaks
 			jetbrains.rider
 			alacritty
+			slack
 
 			# GNOME Extensions
 			gnomeExtensions.clipboard-indicator	
