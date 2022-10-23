@@ -80,6 +80,7 @@
 			jetbrains.rider
 			alacritty
 			slack
+			obsidian
 
 			# GNOME Extensions
 			gnomeExtensions.clipboard-indicator	
