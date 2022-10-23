@@ -69,6 +69,7 @@
 			direnv
 			htop
 			fzf
+			srandrd
 
 			# gui
 			spotify
