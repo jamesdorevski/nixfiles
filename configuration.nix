@@ -70,6 +70,8 @@
 			htop
 			fzf
 			srandrd
+			tldr
+			thefuck
 
 			# gui
 			spotify
@@ -80,6 +82,7 @@
 			jetbrains.rider
 			slack
 			obsidian
+			libreoffice
 
 			# GNOME Extensions
 			gnomeExtensions.clipboard-indicator	
