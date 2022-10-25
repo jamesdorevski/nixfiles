@@ -37,6 +37,7 @@
 			enable = true;
 			shellInit = ''
 				direnv hook fish | source		
+				fish_vi_key_bindings
 			'';
 			shellAliases = {
 				vi = "nvim";
@@ -54,4 +55,7 @@
 			};
 		};
 	};
+
+	# temp fix for manual-combined.xml error
+	manual.manpages.enable = false;
 }

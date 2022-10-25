@@ -72,6 +72,8 @@
 			srandrd
 			tldr
 			thefuck
+			ranger
+			tree
 
 			# gui
 			spotify
@@ -83,6 +85,8 @@
 			slack
 			obsidian
 			libreoffice
+			gimp
+			xournalpp
 
 			# GNOME Extensions
 			gnomeExtensions.clipboard-indicator	
