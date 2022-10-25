@@ -78,7 +78,6 @@
 			vlc
 			gnome.gnome-tweaks
 			jetbrains.rider
-			alacritty
 			slack
 			obsidian
 

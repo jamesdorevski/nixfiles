@@ -12,7 +12,6 @@
 	};
 
 	home.packages = with pkgs; [
-		fira
 		fira-code
 	];
 	
@@ -50,6 +49,9 @@
 				ms-dotnettools.csharp
 				bbenoist.nix
 			];
+			userSettings = {
+				"editor.fontFamily" = "'Fira Code'";			
+			};
 		};
 	};
 }
