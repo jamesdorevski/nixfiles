@@ -74,6 +74,8 @@
 			thefuck
 			ranger
 			tree
+			jump
+			dive
 
 			# gui
 			spotify
