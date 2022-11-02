@@ -11,8 +11,10 @@
 		};
 	};
 
+	fonts.fontconfig.enable = true;
 	home.packages = with pkgs; [
 		fira-code
+		lato
 	];
 	
 	nixpkgs.config.allowUnfree = true;
@@ -37,6 +39,7 @@
 			enable = true;
 			shellInit = ''
 				direnv hook fish | source		
+				jump shell fish | source
 				fish_vi_key_bindings
 			'';
 			shellAliases = {
