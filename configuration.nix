@@ -89,6 +89,7 @@
 			libreoffice
 			gimp
 			xournalpp
+			minecraft
 
 			# GNOME Extensions
 			gnomeExtensions.clipboard-indicator	
