@@ -76,6 +76,8 @@
 			tree
 			jump
 			dive
+			helix
+			dotnet-sdk
 
 			# gui
 			spotify
