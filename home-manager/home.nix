@@ -60,5 +60,5 @@
 	};
 
 	# temp fix for manual-combined.xml error
-	manual.manpages.enable = false;
+	# manual.manpages.enable = false;
 }
