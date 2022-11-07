@@ -78,6 +78,7 @@
 			dive
 			helix
 			dotnet-sdk
+			mono
 
 			# gui
 			spotify
@@ -92,11 +93,13 @@
 			gimp
 			xournalpp
 			prismlauncher
+			zoom
 
 			# GNOME Extensions
 			gnomeExtensions.clipboard-indicator	
 			gnomeExtensions.bluetooth-quick-connect
 			gnomeExtensions.sound-output-device-chooser
+			gnomeExtensions.todotxt
 		];
 	};
 
