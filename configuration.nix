@@ -93,7 +93,8 @@
 			gimp
 			xournalpp
 			prismlauncher
-			zoom
+			zoom-us
+			discord
 
 			# GNOME Extensions
 			gnomeExtensions.clipboard-indicator	
