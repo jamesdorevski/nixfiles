@@ -29,8 +29,8 @@
 	services = {
 		xserver = {
 			enable = true;
-			displayManager.gdm.enable = true;
-			desktopManager.gnome.enable = true;
+			displayManager.sddm.enable = true;
+			desktopManager.plasma5.enable = true;
 			layout = "au";
 			xkbVariant = "";
 		};
@@ -95,7 +95,6 @@
 			prismlauncher
 			zoom-us
 			discord
-			pcmanfm
 
 			# GNOME Extensions
 			gnomeExtensions.clipboard-indicator	
