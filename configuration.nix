@@ -95,6 +95,7 @@
 			prismlauncher
 			zoom-us
 			discord
+			pcmanfm
 
 			# GNOME Extensions
 			gnomeExtensions.clipboard-indicator	
