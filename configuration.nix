@@ -47,6 +47,7 @@
 
 	sound.enable = true;
 	hardware.pulseaudio.enable = false;
+	hardware.bluetooth.enable = true;
 	security.rtkit.enable = true;
   	
 	users.users.james = {
@@ -95,12 +96,6 @@
 			prismlauncher
 			zoom-us
 			discord
-
-			# GNOME Extensions
-			gnomeExtensions.clipboard-indicator	
-			gnomeExtensions.bluetooth-quick-connect
-			gnomeExtensions.sound-output-device-chooser
-			gnomeExtensions.todotxt
 		];
 	};
 
