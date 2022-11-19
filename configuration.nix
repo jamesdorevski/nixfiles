@@ -1,6 +1,4 @@
-# Edit this configuration file to define what should be installed on # your system.  Help is available in the configuration.nix(5) man page and in the NixOS manual (accessible by running ‘nixos-help’).
 { config, pkgs, ... }:
-
 {
   	imports = [  
 		./hardware-configuration.nix
@@ -29,8 +27,8 @@
 	services = {
 		xserver = {
 			enable = true;
-			displayManager.sddm.enable = true;
-			desktopManager.plasma5.enable = true;
+			displayManager.gdm.enable = true;
+			desktopManager.gnome.enable = true;
 			layout = "au";
 			xkbVariant = "";
 		};
@@ -96,6 +94,12 @@
 			prismlauncher
 			zoom-us
 			discord
+
+			# GNOME Extensions
+                        gnomeExtensions.clipboard-indicator     
+                        gnomeExtensions.bluetooth-quick-connect
+                        gnomeExtensions.sound-output-device-chooser
+                        gnomeExtensions.todotxt
 		];
 	};
 
