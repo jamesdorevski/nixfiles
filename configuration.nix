@@ -94,6 +94,7 @@
 			prismlauncher
 			zoom-us
 			discord
+			brave
 
 			# GNOME Extensions
                         gnomeExtensions.clipboard-indicator     
