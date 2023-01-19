@@ -8,6 +8,7 @@
 		file = {
 			".config/alacritty/alacritty.yml".source = ./alacritty/alacritty.yml;
 			".config/nvim/init.vim".source = ./nvim/init.vim;
+			".config/i3/config".source = ./i3/config;
 		};
 	};
 
