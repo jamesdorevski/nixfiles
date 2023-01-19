@@ -28,7 +28,6 @@
 		xserver = {
 			enable = true;
 			layout = "au";
-			xkbVariant = "";
 			desktopManager.xterm.enable = false;
 			displayManager.defaultSession = "none+i3";
 			windowManager.i3 = {
@@ -90,7 +89,6 @@
 
 			# gui
 			spotify
-			google-chrome
 			transmission-gtk
 			vlc
 			gnome.gnome-tweaks
@@ -104,6 +102,7 @@
 			zoom-us
 			discord
 			brave
+			alacritty
 
 			# GNOME Extensions
                         gnomeExtensions.clipboard-indicator     
