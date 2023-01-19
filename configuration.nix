@@ -23,14 +23,22 @@
 
   	time.timeZone = "Australia/Sydney";
   	i18n.defaultLocale = "en_AU.utf8";
-
+		
 	services = {
 		xserver = {
 			enable = true;
-			displayManager.gdm.enable = true;
-			desktopManager.gnome.enable = true;
 			layout = "au";
 			xkbVariant = "";
+			desktopManager.xterm.enable = false;
+			displayManager.defaultSession = "none+i3";
+			windowManager.i3 = {
+				enable = true;
+				extraPackages = with pkgs; [
+					dmenu 
+					i3status
+					i3lock
+				];
+			};
 		};
 		printing = {
 			enable = true;
@@ -61,6 +69,7 @@
 
 	nixpkgs.config.allowUnfree = true;
 	environment = {
+		pathsToLink = [ "/libexec" ];
 		systemPackages = with pkgs; [
 			# cli
 			neovim
