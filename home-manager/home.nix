@@ -13,8 +13,8 @@
 
 	fonts.fontconfig.enable = true;
 	home.packages = with pkgs; [
-		fira-code
 		lato
+		hack-font
 	];
 	
 	nixpkgs.config.allowUnfree = true;
@@ -60,5 +60,5 @@
 	};
 
 	# temp fix for manual-combined.xml error
-	# manual.manpages.enable = false;
+	manual.manpages.enable = false;
 }

@@ -103,6 +103,7 @@
 			discord
 			brave
 			alacritty
+			pcmanfm
 
 			# GNOME Extensions
                         gnomeExtensions.clipboard-indicator     
