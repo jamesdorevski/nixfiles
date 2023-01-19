@@ -86,6 +86,8 @@
 			helix
 			dotnet-sdk
 			mono
+			pulseaudio
+			brightnessctl
 
 			# gui
 			spotify
