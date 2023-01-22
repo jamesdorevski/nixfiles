@@ -106,13 +106,8 @@
 			brave
 			alacritty
 			pcmanfm
-
-			# GNOME Extensions
-                        gnomeExtensions.clipboard-indicator     
-                        gnomeExtensions.bluetooth-quick-connect
-                        gnomeExtensions.sound-output-device-chooser
-                        gnomeExtensions.todotxt
-			gnomeExtensions.application-volume-mixer
+			polybar
+			pavucontrol
 		];
 	};
 
