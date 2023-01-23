@@ -173,3 +173,6 @@ bar {
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
 
+# lock screen using i3lock
+bindsym $mod+Shift+w exec "i3lock -c 000000"
+
