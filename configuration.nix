@@ -88,9 +88,8 @@
 			dive
 			helix
 			dotnet-sdk
-			mono
-			pulseaudio
-
+			go
+	
 			# gui
 			spotify
 			transmission-gtk
