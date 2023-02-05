@@ -28,16 +28,8 @@
 		xserver = {
 			enable = true;
 			layout = "au";
-			desktopManager.xterm.enable = false;
-			displayManager.defaultSession = "none+i3";
-			windowManager.i3 = {
-				enable = true;
-				extraPackages = with pkgs; [
-					dmenu 
-					i3status
-					i3lock
-				];
-			};
+			displayManager.sddm.enable = true;
+			desktopManager.plasma5.enable = true;
 		};
 		printing = {
 			enable = true;
@@ -87,13 +79,11 @@
 			dotnet-sdk
 			mono
 			pulseaudio
-			brightnessctl
 
 			# gui
 			spotify
 			transmission-gtk
 			vlc
-			gnome.gnome-tweaks
 			jetbrains.rider
 			slack
 			obsidian
@@ -104,10 +94,6 @@
 			zoom-us
 			discord
 			brave
-			alacritty
-			pcmanfm
-			polybar
-			pavucontrol
 		];
 	};
 
