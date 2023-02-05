@@ -1,8 +1,8 @@
 { config, pkgs, ... }:
 {
   	imports = [  
-		./hardware-configuration.nix
- 	     	<home-manager/nixos>
+		./hardware-configuration.nix	 
+		<home-manager/nixos>
 		<nixos-hardware/lenovo/thinkpad/t14/amd/gen2>
  	];
 
@@ -95,6 +95,9 @@
 			discord
 			brave
 			gnome.gnome-tweaks
+
+			# GNOME tweaks
+			gnomeExtensions.todotxt
 		];
 	};
 
