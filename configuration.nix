@@ -43,8 +43,19 @@
 	};
 
 	sound.enable = true;
-	hardware.pulseaudio.enable = false;
-	hardware.bluetooth.enable = true;
+	hardware = {
+		pulseaudio = {
+			enable = false;
+		};
+		bluetooth = {
+			enable = true;
+			settings = {
+				General = {
+					ControllerMode = "bredr";
+				};
+			};
+		};
+	};
 	security.rtkit.enable = true;
   	
 	users.users.james = {
