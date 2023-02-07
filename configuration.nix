@@ -28,8 +28,20 @@
 		xserver = {
 			enable = true;
 			layout = "au";
-			displayManager.gdm.enable = true;
-			desktopManager.gnome.enable = true;
+			desktopManager = {
+				xterm.enable = false;
+			};
+			displayManager = {
+				defaultSession = "none+i3";
+			};
+			windowManager.i3 = {
+				enable = true;
+				extraPackages = with pkgs; [
+					dmenu
+					i3status
+					i3lock
+				];
+			};
 		};
 		printing = {
 			enable = true;
@@ -89,6 +101,9 @@
 			helix
 			dotnet-sdk
 			go
+			brightnessctl
+			redshift
+			pulseaudio
 	
 			# gui
 			spotify
@@ -104,10 +119,9 @@
 			zoom-us
 			discord
 			brave
-			gnome.gnome-tweaks
-
-			# GNOME tweaks
-			gnomeExtensions.todotxt
+			google-chrome
+			alacritty
+			pavucontrol
 		];
 	};
 
