@@ -40,6 +40,7 @@
 					dmenu
 					i3status
 					i3lock
+					rofi
 				];
 			};
 			libinput = {
@@ -57,6 +58,9 @@
 			alsa.enable = true;
 			alsa.support32Bit = true;
 			pulse.enable = true;
+		};
+		blueman = {
+			enable = true;
 		};
 	};
 
@@ -128,6 +132,7 @@
 			google-chrome
 			alacritty
 			pavucontrol
+			pcmanfm
 		];
 	};
 
