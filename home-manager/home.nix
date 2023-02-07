@@ -16,6 +16,7 @@
 	home.packages = with pkgs; [
 		lato
 		hack-font
+		source-code-pro
 	];
 	
 	nixpkgs.config.allowUnfree = true;

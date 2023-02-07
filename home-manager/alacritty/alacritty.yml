@@ -1,6 +1,5 @@
 font:
   normal:
-    family: hack
+    family: SourceCodePro
     style: regular
-
   size: 7
