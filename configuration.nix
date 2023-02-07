@@ -42,6 +42,12 @@
 					i3lock
 				];
 			};
+			libinput = {
+				touchpad = {
+					tapping = false;
+					naturalScrolling = true;
+				};
+			};
 		};
 		printing = {
 			enable = true;
