@@ -133,10 +133,13 @@
 			alacritty
 			pavucontrol
 			pcmanfm
+			firefox
 		];
 	};
 
 	virtualisation.docker.enable = true;
+
+	programs.dconf.enable = true;
 
 	system.stateVersion = "22.05"; 
 }

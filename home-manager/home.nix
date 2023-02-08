@@ -10,14 +10,22 @@
 			".config/nvim/init.vim".source = ./nvim/init.vim;
 			".config/i3/config".source = ./i3/config;
 		};
+		packages = with pkgs; [
+			lato
+			hack-font
+			source-code-pro
+		];
 	};
 
 	fonts.fontconfig.enable = true;
-	home.packages = with pkgs; [
-		lato
-		hack-font
-		source-code-pro
-	];
+
+	gtk = {
+		enable = true;
+		theme = {
+			name = "Adwaita-dark";
+			package = pkgs.gnome.gnome-themes-extra;
+		};
+	};
 	
 	nixpkgs.config.allowUnfree = true;
 
