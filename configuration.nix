@@ -39,6 +39,8 @@
 				extraPackages = with pkgs; [
 					i3lock
 					rofi
+					maim
+					xclip
 				];
 			};
 			libinput = {
@@ -93,6 +95,10 @@
 	environment = {
 		pathsToLink = [ "/libexec" ];
 		systemPackages = with pkgs; [
+			# dev
+			sbcl_2_2_6
+			lispPackages.quicklisp
+
 			# cli
 			neovim
 			tmux
@@ -112,6 +118,7 @@
 			brightnessctl
 			redshift
 			pulseaudio
+			sox
 	
 			# gui
 			spotify

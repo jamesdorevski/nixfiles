@@ -176,3 +176,5 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
 # lock screen using i3lock
 bindsym $mod+Shift+w exec "i3lock -c 000000"
 
+# screenshot (saves to clipboard and a file in ~/screenshots)
+bindsym Print exec NOW=$(date +%d-%b-%Y_%H-%M-%S) && maim --format png --select > ~/screenshots/screenshot_$NOW.png && xclip -selection clip -t image/png ~/screenshots/screenshot_$NOW.png
