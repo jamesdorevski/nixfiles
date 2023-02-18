@@ -134,10 +134,11 @@
 			zoom-us
 			discord
 			brave
-			google-chrome
 			alacritty
 			pavucontrol
 			pcmanfm
+			arandr
+			firefox
 		];
 	};
 
