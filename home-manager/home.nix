@@ -20,6 +20,7 @@
 			lato
 			hack-font
 			source-code-pro
+			inconsolata
 		];
 	};
 
