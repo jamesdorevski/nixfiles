@@ -21,6 +21,7 @@
 			hack-font
 			source-code-pro
 			inconsolata
+			liberation_ttf
 		];
 	};
 
@@ -31,6 +32,9 @@
 		theme = {
 			name = "Adwaita-dark";
 			package = pkgs.gnome.gnome-themes-extra;
+		};
+		font = {
+			name = "Helvetica";
 		};
 	};
 	
