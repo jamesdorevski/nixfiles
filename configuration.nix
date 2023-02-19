@@ -112,14 +112,14 @@
 			tree
 			jump
 			dive
-			helix
 			dotnet-sdk
 			go
 			brightnessctl
 			redshift
 			pulseaudio
 			sox
-	
+			mitscheme
+			
 			# gui
 			spotify
 			transmission-gtk
@@ -138,7 +138,6 @@
 			pavucontrol
 			pcmanfm
 			arandr
-			firefox
 		];
 	};
 
