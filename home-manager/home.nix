@@ -33,9 +33,6 @@
 			name = "Adwaita-dark";
 			package = pkgs.gnome.gnome-themes-extra;
 		};
-		font = {
-			name = "Helvetica";
-		};
 	};
 	
 	nixpkgs.config.allowUnfree = true;

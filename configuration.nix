@@ -28,27 +28,8 @@
 		xserver = {
 			enable = true;
 			layout = "au";
-			desktopManager = {
-				xterm.enable = false;
-			};
-			displayManager = {
-				defaultSession = "none+i3";
-			};
-			windowManager.i3 = {
-				enable = true;
-				extraPackages = with pkgs; [
-					i3lock
-					rofi
-					maim
-					xclip
-				];
-			};
-			libinput = {
-				touchpad = {
-					tapping = false;
-					naturalScrolling = true;
-				};
-			};
+			displayManager.gdm.enable = true;
+			desktopManager.gnome.enable = true;
 		};
 		printing = {
 			enable = true;
@@ -96,8 +77,9 @@
 		pathsToLink = [ "/libexec" ];
 		systemPackages = with pkgs; [
 			# dev
-			sbcl_2_2_6
-			lispPackages.quicklisp
+			mitschem
+			dotnet-sdk
+			go
 
 			# cli
 			neovim
@@ -112,13 +94,7 @@
 			tree
 			jump
 			dive
-			dotnet-sdk
-			go
-			brightnessctl
-			redshift
-			pulseaudio
 			sox
-			mitscheme
 			
 			# gui
 			spotify
@@ -134,10 +110,9 @@
 			zoom-us
 			discord
 			brave
-			alacritty
-			pavucontrol
-			pcmanfm
-			arandr
+
+			# GNOME extensions
+			gnomeExtensions.tweaks-in-system-menu
 		];
 	};
 
