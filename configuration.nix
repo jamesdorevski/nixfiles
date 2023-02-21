@@ -40,9 +40,6 @@
 			alsa.support32Bit = true;
 			pulse.enable = true;
 		};
-		blueman = {
-			enable = true;
-		};
 	};
 
 	sound.enable = true;
@@ -77,7 +74,7 @@
 		pathsToLink = [ "/libexec" ];
 		systemPackages = with pkgs; [
 			# dev
-			mitschem
+			mitscheme
 			dotnet-sdk
 			go
 
@@ -100,7 +97,6 @@
 			spotify
 			transmission-gtk
 			vlc
-			jetbrains.rider
 			slack
 			obsidian
 			libreoffice
@@ -110,9 +106,10 @@
 			zoom-us
 			discord
 			brave
+			firefox
+			gnome.gnome-tweaks
 
 			# GNOME extensions
-			gnomeExtensions.tweaks-in-system-menu
 		];
 	};
 
