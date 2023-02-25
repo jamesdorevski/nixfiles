@@ -17,6 +17,7 @@
 			lato
 			inconsolata
 			liberation_ttf
+			noto-fonts
 		];
 	};
 

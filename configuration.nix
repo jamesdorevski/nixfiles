@@ -108,6 +108,7 @@
 			brave
 			firefox
 			gnome.gnome-tweaks
+			coolreader
 
 			# GNOME extensions
 		];

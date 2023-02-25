@@ -7,10 +7,9 @@
 				vscodevim.vim
 				ms-dotnettools.csharp
 				bbenoist.nix
-				mattn.lisp
 			];
 			userSettings = {
-				"editor.fontFamily" = "'Fira Code'";			
+				"editor.fontFamily" = "'Inconsolata'";			
 			};
 		};
     };
