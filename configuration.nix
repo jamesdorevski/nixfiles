@@ -47,14 +47,6 @@
 		pulseaudio = {
 			enable = false;
 		};
-		bluetooth = {
-			enable = true;
-			settings = {
-				General = {
-					ControllerMode = "bredr";
-				};
-			};
-		};
 	};
 	security.rtkit.enable = true;
   	
@@ -93,6 +85,8 @@
 			jump
 			dive
 			sox
+			zip 
+			unzip
 			
 			# gui
 			spotify
