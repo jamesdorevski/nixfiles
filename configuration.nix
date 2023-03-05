@@ -77,6 +77,7 @@
 			mitscheme
 			dotnet-sdk
 			go
+			jdk
 
 			# cli
 			neovim
@@ -101,12 +102,10 @@
 			obsidian
 			libreoffice
 			gimp
-			xournalpp
 			prismlauncher
 			zoom-us
 			discord
-			brave
-			firefox
+			google-chrome
 			gnome.gnome-tweaks
 			coolreader
 
