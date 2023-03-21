@@ -28,27 +28,8 @@
 		xserver = {
 			enable = true;
 			layout = "au";
-			desktopManager = {
-				xterm.enable = false;
-			};
-			displayManager = {
-				defaultSession = "none+i3";
-			};
-			windowManager.i3 = {
-				enable = true;
-				extraPackages = with pkgs; [
-					i3lock
-					rofi
-					maim
-					xclip
-				];
-			};
-			libinput = {
-				touchpad = {
-					tapping = false;
-					naturalScrolling = true;
-				};
-			};
+			displayManager.gdm.enable = true;
+			desktopManager.gnome.enable = true;
 		};
 		printing = {
 			enable = true;
@@ -96,7 +77,6 @@
 			direnv
 			htop
 			fzf
-			srandrd
 			tldr
 			thefuck
 			ranger
@@ -106,8 +86,10 @@
 			sox
 			zip 
 			unzip
-			
+
 			# gui
+			google-chrome
+			firefox
 			spotify
 			transmission-gtk
 			vlc
@@ -115,14 +97,9 @@
 			obsidian
 			libreoffice
 			gimp
-			prismlauncher
 			zoom-us
 			discord
-			google-chrome
-			gnome.gnome-tweaks
 			coolreader
-
-			# GNOME extensions
 		];
 	};
 
