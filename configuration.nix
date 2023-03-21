@@ -78,7 +78,6 @@
 			htop
 			fzf
 			tldr
-			thefuck
 			ranger
 			tree
 			jump
@@ -97,7 +96,6 @@
 			obsidian
 			libreoffice
 			gimp
-			zoom-us
 			discord
 			coolreader
 		];
