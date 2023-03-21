@@ -28,8 +28,27 @@
 		xserver = {
 			enable = true;
 			layout = "au";
-			displayManager.gdm.enable = true;
-			desktopManager.gnome.enable = true;
+			desktopManager = {
+				xterm.enable = false;
+			};
+			displayManager = {
+				defaultSession = "none+i3";
+			};
+			windowManager.i3 = {
+				enable = true;
+				extraPackages = with pkgs; [
+					i3lock
+					rofi
+					maim
+					xclip
+				];
+			};
+			libinput = {
+				touchpad = {
+					tapping = false;
+					naturalScrolling = true;
+				};
+			};
 		};
 		printing = {
 			enable = true;
