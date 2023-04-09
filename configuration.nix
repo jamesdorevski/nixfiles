@@ -98,6 +98,9 @@
 			gimp
 			discord
 			coolreader
+
+			# GNOME
+			gnome.gnome-tweaks	
 		];
 	};
 
