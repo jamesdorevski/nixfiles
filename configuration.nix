@@ -98,9 +98,13 @@
 			gimp
 			discord
 			coolreader
-
-			# GNOME
+			android-studio
 			gnome.gnome-tweaks	
+
+			# gnome extensions
+			gnomeExtensions.emoji-selector
+		 	gnomeExtensions.clipboard-indicator
+			gnomeExtensions.caffeine
 		];
 	};
 
