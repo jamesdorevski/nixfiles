@@ -85,6 +85,8 @@
 			sox
 			zip 
 			unzip
+			android-tools
+			android-udev-rules
 
 			# gui
 			google-chrome

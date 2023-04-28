@@ -7,6 +7,7 @@
 				vscodevim.vim
 				ms-dotnettools.csharp
 				bbenoist.nix
+				bierner.markdown-mermaid
 			];
 			userSettings = {
 				"editor.fontFamily" = "'Inconsolata'";			
