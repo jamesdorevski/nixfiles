@@ -9,9 +9,6 @@
 				bbenoist.nix
 				bierner.markdown-mermaid
 			];
-			userSettings = {
-				"editor.fontFamily" = "'Inconsolata'";			
-			};
 		};
     };
 }

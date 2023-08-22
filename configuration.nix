@@ -84,6 +84,7 @@
 			zip 
 			unzip
 			gh
+			ranger
 
 			# gui
 			google-chrome

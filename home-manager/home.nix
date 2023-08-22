@@ -2,7 +2,6 @@
 {
 	imports = [
 		./git/git.nix
-		./fish/fish.nix
 		./vscode/vscode.nix
 	];
 
