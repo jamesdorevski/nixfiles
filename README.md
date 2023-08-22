@@ -35,6 +35,6 @@ nixos-rebuild switch
 1. Run the following command:
 
 ```shell
-home-manager build
+home-manager switch
 ```
 
