@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 {
   	imports = [  
-		./hardware-configuration.nix	 
+		/etc/nixos/hardware-configuration.nix	 
 		<home-manager/nixos>
 		<nixos-hardware/lenovo/thinkpad/t14/amd/gen2>
  	];
@@ -11,7 +11,7 @@
 			systemd-boot.enable = true;
 			efi = {
 				canTouchEfiVariables = true;
-				efiSysMountPoint = "/boot/efi";
+				efiSysMountPoint = "/boot";
 			};
 		};
 	};
@@ -53,7 +53,6 @@
 	users.users.james = {
    		isNormalUser = true;
     		description = "James Dorevski";
-		shell = pkgs.fish;
  	   	extraGroups = [ 
 			"networkmanager" 
 			"wheel" 
@@ -78,19 +77,16 @@
 			htop
 			fzf
 			tldr
-			ranger
 			tree
 			jump
 			dive
 			sox
 			zip 
 			unzip
-			android-tools
-			android-udev-rules
+			gh
 
 			# gui
 			google-chrome
-			firefox
 			spotify
 			transmission-gtk
 			vlc
@@ -99,7 +95,6 @@
 			libreoffice
 			gimp
 			discord
-			coolreader
 			android-studio
 			gnome.gnome-tweaks	
 
