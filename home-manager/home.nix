@@ -10,7 +10,7 @@
 		username = "james";
 		homeDirectory = "/home/james";
 		file = {
-			".config/nvim/init.vim".source = ./nvim/init.vim;
+			".config/nvim".source = ./nvim;
 		};
 		packages = with pkgs; [
 			lato
