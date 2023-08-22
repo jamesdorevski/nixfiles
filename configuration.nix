@@ -97,6 +97,7 @@
 			gimp
 			discord
 			android-studio
+            foot
 			gnome.gnome-tweaks	
 
 			# gnome extensions
