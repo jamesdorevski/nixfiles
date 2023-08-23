@@ -85,6 +85,7 @@
 			unzip
 			gh
 			ranger
+            ddcutil
 
 			# gui
 			google-chrome
@@ -97,13 +98,15 @@
 			gimp
 			discord
 			android-studio
-            foot
+            thunderbird
 			gnome.gnome-tweaks	
 
 			# gnome extensions
 			gnomeExtensions.emoji-selector
 		 	gnomeExtensions.clipboard-indicator
 			gnomeExtensions.caffeine
+            gnomeExtensions.todotxt
+            gnomeExtensions.brightness-control-using-ddcutil
 		];
 	};
 
