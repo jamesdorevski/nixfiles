@@ -14,6 +14,9 @@
 				efiSysMountPoint = "/boot";
 			};
 		};
+        kernelModules = [ 
+            "i2c-dev" 
+        ];
 	};
 
 	networking = {
@@ -25,6 +28,9 @@
   	i18n.defaultLocale = "en_AU.utf8";
 		
 	services = {
+        udev.extraRules = ''
+            KERNEL=="i2c-[0-9]*", GROUP="i2c", MODE="0660"
+        '';
 		xserver = {
 			enable = true;
 			layout = "au";
@@ -57,6 +63,7 @@
 			"networkmanager" 
 			"wheel" 
 			"docker"
+            "i2c"
 		];
   	};
 
@@ -88,6 +95,7 @@
             ddcutil
 
 			# gui
+            firefox
 			google-chrome
 			spotify
 			transmission-gtk
@@ -99,6 +107,7 @@
 			discord
 			android-studio
             thunderbird
+            foliate
 			gnome.gnome-tweaks	
 
 			# gnome extensions
