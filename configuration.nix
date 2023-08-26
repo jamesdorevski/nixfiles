@@ -37,6 +37,11 @@
 			displayManager.gdm.enable = true;
 			desktopManager.gnome.enable = true;
 		};
+		xrdp = {
+			enable = true;
+			defaultWindowManager = "gnome-session";
+			openFirewall = true;
+		};
 		printing = {
 			enable = true;
 		};
@@ -108,7 +113,9 @@
 			android-studio
             thunderbird
             foliate
-			gnome.gnome-tweaks	
+			gnome.gnome-tweaks
+			gnome.gnome-chess
+			stellarium
 
 			# gnome extensions
 			gnomeExtensions.emoji-selector
